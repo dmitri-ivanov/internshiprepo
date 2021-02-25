@@ -27,7 +27,7 @@ public class IntershipprojectApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("Hi there. You are going to use internship console application. There are some simple commands you are able to use:");
+        System.out.println("You are going to use internship console application. There are some simple commands you are able to use:");
         userInputHandler.showHelp();
         userInputHandler.handler();
 
